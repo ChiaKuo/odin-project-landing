@@ -6,7 +6,7 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
 }
 
 li {
@@ -123,4 +123,45 @@ header ul {
 
 .lower .image-container p {
   color: #F9FAF8;
+}
+
+
+/* Info Container Styles */
+
+.info-container {
+  text-align: center;
+}
+
+.info-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 50px 0;
+
+}
+
+.info-container .info-flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 80px;
+}
+
+.info-container .info-flex .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.info-container .info-flex .info .image {
+  box-sizing: border-box;
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.info-container .info-flex .info p {
+  padding: 10px 0;
+  margin-bottom: 120px;
+  color: #1F2937;
 }
