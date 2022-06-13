@@ -1,138 +1,126 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Styles Here */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
+
+
+/* Overall Styles */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+
+header,
+main,
+footer {
+  padding: 0 200px;
+}
+
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
+button,
 a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+li {
+  font-family: 'Roboto', Arial;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+/* Header Styles */
+
+
+header {
+  background: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-body {
-  line-height: 1;
+header h1,
+header h3,
+header button {
+  color: #F9FAF8;
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+header ul {
+  display: flex;
+  gap: 25px;
 }
 
 
-/* Styles Here */
+.upper,
+.lower {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Upper Header */
+
+
+.upper {
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.upper h3 {
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* Lower Header */
+.lower {
+  align-items: flex-start;
+}
+
+.lower .header-text {
+  width: 50%;
+}
+
+.lower .header-text h1 {
+  line-height: 52px;
+  font-size: 48px;
+  font-weight: 700;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.lower .header-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 90%;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+
+.lower .header-text button {
+  background-color: #3882F6;
+  padding: 5px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.lower .image-container {
+  width: 50%;
+  text-align: center;
+  background: grey;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lower .image-container p {
+  color: #F9FAF8;
+}
