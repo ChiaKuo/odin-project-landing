@@ -229,6 +229,8 @@ header ul {
   border-radius: 10px;
   padding: 10px 35px;
   border: 2px solid #F9FAF8;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 
@@ -238,4 +240,11 @@ header ul {
 
 footer {
   background: #1F2937;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #E5E7EB;
+  font-size: 18px;
 }
