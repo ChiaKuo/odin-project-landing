@@ -15,7 +15,8 @@ li {
 
 
 header,
-main,
+.info-container,
+.action-container,
 footer {
   padding: 0 200px;
 }
@@ -29,7 +30,8 @@ h5,
 h6,
 button,
 a,
-li {
+li,
+bq {
   font-family: 'Roboto', Arial;
 }
 
@@ -163,4 +165,77 @@ header ul {
 .info-container .info-flex .info p {
   padding: 10px 0;
   color: #1F2937;
+}
+
+
+/* Quote Container Styles */
+
+.quote-container {
+  background: #E5E7EB;
+  padding: 100px 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-container bq {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+  align-self: flex-end;
+  line-height: 44px;
+  color: #1F2937;
+
+}
+
+.quote-container p {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  right: 40px;
+}
+
+
+/* Action Container Styles */
+
+.action-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.action-container .blue-box {
+  background: #3882F6;
+  border-radius: 15px;
+  padding: 50px 0;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-container .blue-box .blue-text h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+
+.action-container .blue-box .blue-text p {
+  color: #E5E7EB;
+}
+
+.action-container .blue-box button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 10px 35px;
+  border: 2px solid #F9FAF8;
+}
+
+
+
+
+/* Footer Styles */
+
+footer {
+  background: #1F2937;
 }
